@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             lblwelcome = new Label();
+            btnvoltarlogin = new Button();
             SuspendLayout();
             // 
             // lblwelcome
@@ -41,11 +42,22 @@
             lblwelcome.TabIndex = 0;
             lblwelcome.Text = "SEJA BEM VINDO AO MENU";
             // 
+            // btnvoltarlogin
+            // 
+            btnvoltarlogin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnvoltarlogin.Location = new Point(175, 91);
+            btnvoltarlogin.Name = "btnvoltarlogin";
+            btnvoltarlogin.Size = new Size(130, 28);
+            btnvoltarlogin.TabIndex = 1;
+            btnvoltarlogin.Text = "voltar ao login";
+            btnvoltarlogin.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnvoltarlogin);
             Controls.Add(lblwelcome);
             Name = "Form2";
             Text = "Form2";
@@ -56,5 +68,6 @@
         #endregion
 
         private Label lblwelcome;
+        private Button btnvoltarlogin;
     }
 }
