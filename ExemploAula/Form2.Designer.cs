@@ -36,7 +36,7 @@
             // 
             lblwelcome.AutoSize = true;
             lblwelcome.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblwelcome.Location = new Point(325, 31);
+            lblwelcome.Location = new Point(292, 58);
             lblwelcome.Name = "lblwelcome";
             lblwelcome.Size = new Size(221, 21);
             lblwelcome.TabIndex = 0;
@@ -45,7 +45,7 @@
             // btnvoltarlogin
             // 
             btnvoltarlogin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnvoltarlogin.Location = new Point(175, 91);
+            btnvoltarlogin.Location = new Point(328, 160);
             btnvoltarlogin.Name = "btnvoltarlogin";
             btnvoltarlogin.Size = new Size(130, 28);
             btnvoltarlogin.TabIndex = 1;
