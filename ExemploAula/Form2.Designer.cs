@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form2";
+            lblwelcome = new Label();
+            SuspendLayout();
+            // 
+            // lblwelcome
+            // 
+            lblwelcome.AutoSize = true;
+            lblwelcome.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblwelcome.Location = new Point(325, 31);
+            lblwelcome.Name = "lblwelcome";
+            lblwelcome.Size = new Size(221, 21);
+            lblwelcome.TabIndex = 0;
+            lblwelcome.Text = "SEJA BEM VINDO AO MENU";
+            // 
+            // Form2
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(lblwelcome);
+            Name = "Form2";
+            Text = "Form2";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lblwelcome;
     }
 }
