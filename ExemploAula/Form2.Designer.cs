@@ -1,6 +1,6 @@
 ﻿namespace ExemploAula
 {
-    partial class Form2
+    partial class frmmenu
     {
         /// <summary>
         /// Required designer variable.
@@ -51,16 +51,17 @@
             btnvoltarlogin.TabIndex = 1;
             btnvoltarlogin.Text = "voltar ao login";
             btnvoltarlogin.UseVisualStyleBackColor = true;
+            btnvoltarlogin.Click += btnvoltarlogin_Click;
             // 
-            // Form2
+            // frmmenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(btnvoltarlogin);
             Controls.Add(lblwelcome);
-            Name = "Form2";
-            Text = "Form2";
+            Name = "frmmenu";
+            Text = "menu";
             ResumeLayout(false);
             PerformLayout();
         }

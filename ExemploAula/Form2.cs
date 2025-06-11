@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace ExemploAula
 {
-    public partial class Form2 : Form
+    public partial class frmmenu : Form
     {
-        public Form2()
+        public frmmenu()
         {
             InitializeComponent();
+        }
+
+        private void btnvoltarlogin_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmlogin login= new frmlogin();
+            login.Show();
         }
     }
 }
